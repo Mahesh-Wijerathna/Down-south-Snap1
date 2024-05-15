@@ -43,7 +43,7 @@
     "test_destination" : "cd ../destination && npm run test",
     "test_appointment" : "cd ../appointment && npm run test",
 
-    "ins_all": "npm-run-all ins_central ins_auth ins_tourist ins_m_center ins_destination ins_appointment ins_test ins_frontend",
+    "ins_all": "npm i npm-run-all && npm-run-all ins_central ins_auth ins_tourist ins_m_center ins_destination ins_appointment ins_test ins_frontend",
     "start_all": "npm-run-all --parallel start_central start_auth start_tourist start_m_center start_destination start_appointment",
     "test_all": "npm-run-all test_central test_auth test_tourist test_destination test_appointment test_m_center",
     "clean_all": "npm-run-all clean_auth clean_tourist clean_m_center clean_destination clean_appointment clean_testing clean_frontend clean_central",
